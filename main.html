@@ -1,15 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: auto;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        h1 {
+            text-align: center;
+            color: #444;
+        }
+    </style>
 </head>
 <body>
-    <!-- add table here -->
-
-        
+    <h1>Covid-19 Statistics</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Country</th>
+                <th>Total Cases</th>
+                <th>Active Cases</th>
+                <th>Recovered</th>
+                <th>Deaths</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>USA</td>
+                <td>5,000,000</td>
+                <td>800,000</td>
+                <td>4,000,000</td>
+                <td>200,000</td>
+            </tr>
+            <tr>
+                <td>India</td>
+                <td>4,500,000</td>
+                <td>300,000</td>
+                <td>4,100,000</td>
+                <td>100,000</td>
+            </tr>
+            <tr>
+                <td>Brazil</td>
+                <td>3,800,000</td>
+                <td>500,000</td>
+                <td>3,200,000</td>
+                <td>100,000</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
